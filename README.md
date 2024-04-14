@@ -6,4 +6,4 @@ Firstly, we should enable the Google Sheets API and create credentials. Then, ad
 
 Next, add this credential account to a new Google Sheet to allow it to be shared, and note down the ID of this Google Sheet for updating the corresponding Python code.
 
-By utilizing packages such as ![gspread](https://pypi.org/project/gspread/), ![google.oauth2.service_account module](https://google-auth.readthedocs.io/en/master/reference/google.oauth2.service_account.html), and ![gspread_dataframe](https://pypi.org/project/gspread-dataframe/), we can obtain authorization for Google Sheets and successfully upload the Pandas DataFrame to Google Sheets.
+By utilizing packages such as [gspread](https://pypi.org/project/gspread/), [google.oauth2.service_account module](https://google-auth.readthedocs.io/en/master/reference/google.oauth2.service_account.html), and [gspread_dataframe](https://pypi.org/project/gspread-dataframe/), we can obtain authorization for Google Sheets and successfully upload the Pandas DataFrame to Google Sheets.
